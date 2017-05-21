@@ -1,0 +1,557 @@
+<!-- Emails use the XHTML Strict doctype -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #f3f3f3; box-sizing: border-box; min-height: 100%;">
+
+<head style="box-sizing: border-box;">
+	<!-- The character set should be utf-8 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" style="box-sizing: border-box;">
+	<!-- Enables media queries -->
+	<meta name="viewport" content="width=device-width" style="box-sizing: border-box;">
+	<!-- Link to the email's CSS, which will be inlined into the email -->
+	<style style="box-sizing: border-box;">
+@media only screen and (max-width:616px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:616px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:616px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width:616px) {
+  table.body img {
+    height: auto !important;
+  }
+  table.body center {
+    min-width: 0 !important;
+  }
+  table.body .container {
+    width: 95% !important;
+  }
+  table.body .column,table.body .columns {
+    height: auto !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  table.body .collapse .column,table.body .collapse .columns,table.body .column .column,table.body .column .columns,table.body .columns .column,table.body .columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .body .column td.small-1,.body .column th.small-1,.body .columns td.small-1,.body .columns th.small-1,td.small-1,td.small-1 center,th.small-1,th.small-1 center {
+    display: inline-block !important;
+    width: 8.33333% !important;
+  }
+  .body .column td.small-2,.body .column th.small-2,.body .columns td.small-2,.body .columns th.small-2,td.small-2,td.small-2 center,th.small-2,th.small-2 center {
+    display: inline-block !important;
+    width: 16.66667% !important;
+  }
+  .body .column td.small-3,.body .column th.small-3,.body .columns td.small-3,.body .columns th.small-3,td.small-3,td.small-3 center,th.small-3,th.small-3 center {
+    display: inline-block !important;
+    width: 25% !important;
+  }
+  .body .column td.small-4,.body .column th.small-4,.body .columns td.small-4,.body .columns th.small-4,td.small-4,td.small-4 center,th.small-4,th.small-4 center {
+    display: inline-block !important;
+    width: 33.33333% !important;
+  }
+  .body .column td.small-5,.body .column th.small-5,.body .columns td.small-5,.body .columns th.small-5,td.small-5,td.small-5 center,th.small-5,th.small-5 center {
+    display: inline-block !important;
+    width: 41.66667% !important;
+  }
+  .body .column td.small-6,.body .column th.small-6,.body .columns td.small-6,.body .columns th.small-6,td.small-6,td.small-6 center,th.small-6,th.small-6 center {
+    display: inline-block !important;
+    width: 50% !important;
+  }
+  .body .column td.small-7,.body .column th.small-7,.body .columns td.small-7,.body .columns th.small-7,td.small-7,td.small-7 center,th.small-7,th.small-7 center {
+    display: inline-block !important;
+    width: 58.33333% !important;
+  }
+  .body .column td.small-8,.body .column th.small-8,.body .columns td.small-8,.body .columns th.small-8,td.small-8,td.small-8 center,th.small-8,th.small-8 center {
+    display: inline-block !important;
+    width: 66.66667% !important;
+  }
+  .body .column td.small-9,.body .column th.small-9,.body .columns td.small-9,.body .columns th.small-9,td.small-9,td.small-9 center,th.small-9,th.small-9 center {
+    display: inline-block !important;
+    width: 75% !important;
+  }
+  .body .column td.small-10,.body .column th.small-10,.body .columns td.small-10,.body .columns th.small-10,td.small-10,td.small-10 center,th.small-10,th.small-10 center {
+    display: inline-block !important;
+    width: 83.33333% !important;
+  }
+  .body .column td.small-11,.body .column th.small-11,.body .columns td.small-11,.body .columns th.small-11,td.small-11,td.small-11 center,th.small-11,th.small-11 center {
+    display: inline-block !important;
+    width: 91.66667% !important;
+  }
+  table.menu td,table.menu th,td.small-12,th.small-12 {
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .column td.small-12,.column th.small-12,.columns td.small-12,.columns th.small-12 {
+    display: block !important;
+    width: 100% !important;
+  }
+  table.body td.small-offset-1,table.body th.small-offset-1 {
+    margin-left: 8.33333% !important;
+    Margin-left: 8.33333% !important;
+  }
+  table.body td.small-offset-2,table.body th.small-offset-2 {
+    margin-left: 16.66667% !important;
+    Margin-left: 16.66667% !important;
+  }
+  table.body td.small-offset-3,table.body th.small-offset-3 {
+    margin-left: 25% !important;
+    Margin-left: 25% !important;
+  }
+  table.body td.small-offset-4,table.body th.small-offset-4 {
+    margin-left: 33.33333% !important;
+    Margin-left: 33.33333% !important;
+  }
+  table.body td.small-offset-5,table.body th.small-offset-5 {
+    margin-left: 41.66667% !important;
+    Margin-left: 41.66667% !important;
+  }
+  table.body td.small-offset-6,table.body th.small-offset-6 {
+    margin-left: 50% !important;
+    Margin-left: 50% !important;
+  }
+  table.body td.small-offset-7,table.body th.small-offset-7 {
+    margin-left: 58.33333% !important;
+    Margin-left: 58.33333% !important;
+  }
+  table.body td.small-offset-8,table.body th.small-offset-8 {
+    margin-left: 66.66667% !important;
+    Margin-left: 66.66667% !important;
+  }
+  table.body td.small-offset-9,table.body th.small-offset-9 {
+    margin-left: 75% !important;
+    Margin-left: 75% !important;
+  }
+  table.body td.small-offset-10,table.body th.small-offset-10 {
+    margin-left: 83.33333% !important;
+    Margin-left: 83.33333% !important;
+  }
+  table.body td.small-offset-11,table.body th.small-offset-11 {
+    margin-left: 91.66667% !important;
+    Margin-left: 91.66667% !important;
+  }
+  table.body table.columns td.expander,table.body table.columns th.expander {
+    display: none !important;
+  }
+  table.body .right-text-pad,table.body .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table.body .left-text-pad,table.body .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table.menu td,table.menu th {
+    width: auto !important;
+  }
+  table.menu.small-vertical td,table.menu.small-vertical th,table.menu.vertical td,table.menu.vertical th {
+    display: block !important;
+  }
+  table.body img,table.menu[align=center] {
+    width: auto !important;
+  }
+  table.button.expand,table.menu {
+    width: 100% !important;
+  }
+}
+
+
+@media (max-width:600px) {
+  .second-menu-group {
+    margin: 0 auto;
+    float: left;
+  }
+  .kitchen {
+    border-right: none !important;
+  }
+  .list-items {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  img.vk {
+    padding-left: 35% !important;
+  }
+}
+
+
+@media (max-width:460px) {
+  th.null {
+    width: 0 !important;
+  }
+}
+
+
+@media (min-width:320px) {
+  .kyivstar,.life,.vodafone {
+    padding-right: 10px;
+    font-size: 13px !important;
+  }
+}
+</style>
+</head>
+
+
+<!--
+__________________________________________ВАЖНО!__________________________________________________________
+Обнуление отступов
+ 					border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0"
+Для картинок 
+					alt="" border="0" width="150" height="150"
+
+ _________________________________________________________________________________________________________
+ -->
+
+
+
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+
+
+
+	<!--HEADER-->
+	<table class="body" style="Margin: 0; background: #f3f3f3; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; height: 100%; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+		<tr background="" background-image="" bg-color="#ffffff" border="0" cellpadding="0" cellspacing="0" style="box-sizing: border-box; margin: 0; padding: 0; text-align: left; vertical-align: top;">
+			<!--фон у боди задаётся здесь!-->
+			<td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+				<center data-parsed="" style="box-sizing: border-box; min-width: 600px; width: 100%;">
+
+					<table align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+						<!--центр-->
+
+
+
+						<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="4px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 4px; font-weight: 400; hyphens: auto; line-height: 4px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+						<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+							<th class="small-12 large-5 columns first" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 234px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+								<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;"><img class="logo" src="img/logo.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; padding-left: 10px; text-decoration: none; width: auto;"></a>
+							</th></tr></table></th>
+
+							<th class="null small-0 large-2 columns" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 84px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;"></th></tr></table></th>
+
+							<th class="small-12 large-5 columns last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 234px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+								<p class="text-right" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: right;">
+									<img class="inline" src="img/kyivstar.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link  kyivstar" href="tel:0670074455" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; padding-right: 10px; text-align: left; text-decoration: none;"><span class="bold" style="box-sizing: border-box; font-weight: 700;"> (067)</span> 007-44-55</a>
+								</p>
+								<p class="text-right" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: right;">
+									<img class="inline " src="img/life.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link life" href="tel:0632272756" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; padding-right: 10px; text-align: left; text-decoration: none;">
+										<span class="bold" style="box-sizing: border-box; font-weight: 700;"> (063)</span> 227-27-56</a>
+								</p>
+								<p class="text-right" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: right;">
+									<img class="inline" src="img/vodafone.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link vodafone" href="tel:0951128288" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; padding-right: 10px; text-align: left; text-decoration: none;">
+										<span class="bold" style="box-sizing: border-box; font-weight: 700;"> (095)</span> 112-82-88</a>
+								</p>
+							</th></tr></table></th>
+						</tr></tbody></table>
+						<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+						<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+							<th class="large-12 float-center float-left  small-12 large-12 columns first last" border="0" cellpadding="0" cellspacing="0" style="Margin: 0 auto; box-sizing: border-box; color: #000; float: none; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: center; width: 584px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+								<div class="first-menu-group small-float-center" style="box-sizing: border-box; float: left;">
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links" width="60" height="60" src="img/01 menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links" width="60" height="60" src="img/02menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links" width="60" height="60" src="img/03menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links kitchen" width="60" height="60" src="img/04 menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; margin-right: 5px; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+								</div>
+								<div class="second-menu-group small-float-center" style="box-sizing: border-box;">
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links" width="60" height="60" src="img/05menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links " width="60" height="60" src="img/08 menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links" width="60" height="60" src="img/06 menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 1px solid #e1e1e1; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 9px; text-decoration: none; width: auto;">
+									</a>
+									<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<img class="links last-links" width="59" height="60" src="img/07 menu.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; border-right: 0; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-right: 0; text-decoration: none; width: auto;">
+									</a>
+								</div>
+							</th>
+<th class="expander" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+						</tr></tbody></table>
+						<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+							<img width="59" height="46" src="img/1banner.jpg" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+							<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="8px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 8px; font-weight: 400; hyphens: auto; line-height: 8px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+						</tr></tbody></table>
+						<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+							<img src="img/banner.png" width="100" height="" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+						</tr></tbody></table>
+
+						<!--центр-->
+					</td></tr></tbody></table>
+
+				</center>
+			</td>
+		</tr>
+	</table>
+	<!--HEADER-->
+
+
+
+	<!--CONTENT-->
+	<table class="body" style="Margin: 0; background: #f3f3f3; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; height: 100%; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+		<tr background="" background-image="" bg-color="#ffffff" border="0" cellpadding="0" cellspacing="0" style="box-sizing: border-box; margin: 0; padding: 0; text-align: left; vertical-align: top;">
+			<!--фон у боди задаётся здесь!-->
+			<td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+				<center data-parsed="" style="box-sizing: border-box; min-width: 600px; width: 100%;">
+					<table align="center" class="row float-center" style="Margin: 0 auto; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; float: none; margin: 0 auto; padding: 0; position: relative; text-align: center; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+						<table align="center" class="container" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+							<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+								<th class="small-12 large-12 columns first last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 584px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+									<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+									<h1 class="uppercase text-center small-text-center" style="Margin: 0; Margin-bottom: 10px; box-sizing: border-box; color: #000; font-family: Arial; font-size: 18px; font-weight: 700; line-height: 30px; margin: 0; margin-bottom: 10px; padding: 0; text-align: center; text-transform: uppercase; word-wrap: normal;">
+										Умови використання сертифікату:
+									</h1>
+									<ul class="list text-center small-text-left" style="box-sizing: border-box;">
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">1.</span> Сертифікат діє при покупці на суму <span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;">від 3 000 грн</span></p>
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">2.</span> Для того щоб скористатися сертифікатом, назвіть <br style="box-sizing: border-box;"> менеджеру (або в коментарі
+												до замовлення) <br style="box-sizing: border-box;">
+												<span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;"> Ваш особистий промо-код </span> </p>
+
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">3.</span> Використовуйте сертифікат на придбання товарів в <br style="box-sizing: border-box;"> <span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;">магазині meblis.ua</span>												</p>
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">4.</span> Сертифікати <span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;"> не сумуються</span>												з внутрішніми знижками
+												<br style="box-sizing: border-box;"> магазину
+											</p>
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">5.</span> Сертифікат <span style="box-sizing: border-box;">не підлягає</span> не підлягає обміну на еквівалентну
+												<br style="box-sizing: border-box;"> грошову суму
+											</p>
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">6.</span> Сертифікати <span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;">не сумуються</span> між
+												собою
+											</p>
+										</li>
+										<li class="list-items" style="box-sizing: border-box; float: left; list-style: none; margin-bottom: 5px; text-align: сenter;">
+											<p class="text-center small-text-left" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+												<span class="red-font bold" style="box-sizing: border-box; color: red; font-weight: 700;">7.</span> Cертифікат дійсний до <span class="red-font bold uppercase" style="box-sizing: border-box; color: red; font-weight: 700; text-transform: uppercase;">30.06.17</span>
+											</p>
+										</li>
+									</ul>
+								</th>
+<th class="expander" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+								<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+
+
+									<th class="large-12 small-12 large-12 columns first last" border="0" cellpadding="0" cellspacing="0" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 584px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+										<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+											<th class="small-6 small-12 large-2 columns first" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 16.66667%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+												<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+													<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+														<img width="200" height="177" src="img/013.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+													</a>
+												</tr></tbody></table>
+											</th></tr></table></th>
+											<th class="small-6 small-12 large-2 columns" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 16.66667%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+												<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+													<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+														<img width="200" height="177" src="img/014.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+													</a>
+												</tr></tbody></table>
+											</th></tr></table></th>
+											<th class="small-12 small-12 large-2 columns last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 16.66667%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+												<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+													<a class="small-text-center" href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+														<img class="small-float-center" width="200" height="177" src="img/015.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+													</a>
+													<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+												</tr></tbody></table>
+											</th></tr></table></th>
+
+											<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+												<th class="small-6 small-12 large-4 columns first" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 33.33333%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img width="200" height="177" src="img/016.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+														</a>
+													</tr></tbody></table>
+												</th></tr></table></th>
+												<th class="small-6 small-12 large-4 columns" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 33.33333%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img width="200" height="177" src="img/017.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+														</a>
+													</tr></tbody></table>
+												</th></tr></table></th>
+												<th class="small-12  small-12 large-4 columns last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 33.33333%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img class="small-float-center" width="200" height="177" src="img/018.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+														</a>
+														<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+													</tr></tbody></table>
+												</th></tr></table></th>
+											</tr></tbody></table>
+											<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+												<th class="small-12 small-12 large-3 columns first" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 25%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img class="small-float-center" width="200" height="177" src="img/019.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+														</a>
+													</tr></tbody></table>
+													<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+												</th></tr></table></th>
+												<th class="small-12 small-12 large-3 columns" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 25%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img class="center-discount small-float-center" width="200" height="177" src="img/020.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; padding-left: 2px; padding-right: 2px; text-decoration: none; width: auto;">
+														</a>
+													</tr></tbody></table>
+													<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+												</th></tr></table></th>
+												<th class="small-12 small-12 large-3 columns last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 25%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+													<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+														<a href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+															<img class="small-float-center" width="200" height="177" src="img/021.jpg" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+														</a>
+														<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="7px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 7px; font-weight: 400; hyphens: auto; line-height: 7px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+													</tr></tbody></table>
+												</th></tr></table></th>
+												<p class="text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;"> Бiльше пропозицiй на нашому сайтi <a class="link-meblis" href="meblis.ua" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: underline;">meblis.ua</a> </p>
+											</tr></tbody></table>
+										</tr></tbody></table>
+									</th></tr></table></th>
+
+								</tr></tbody></table>
+
+
+							</tr></tbody></table>
+
+						</td></tr></tbody></table>
+					</tr></tbody></table>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<!--CONTENT-->
+
+
+
+	<!--FOOTER-->
+	<table class="body" style="Margin: 0; background: #f3f3f3; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; height: 100%; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+		<tr background="" background-image="" bg-color="#ffffff" border="0" cellpadding="0" cellspacing="0" style="box-sizing: border-box; margin: 0; padding: 0; text-align: left; vertical-align: top;">
+			<!--фон у боди задаётся здесь!-->
+			<td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+				<center data-parsed="" style="box-sizing: border-box; min-width: 600px; width: 100%;">
+
+					<table bg-color="#ebebeb" align="center" class="container float-center" style="Margin: 0 auto; background: #fefefe; border-collapse: collapse; border-spacing: 0; box-sizing: border-box; float: none; margin: 0 auto; padding: 0; text-align: center; vertical-align: top; width: 600px;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; hyphens: auto; line-height: 15px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+						<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="10px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 10px; font-weight: 400; hyphens: auto; line-height: 10px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+
+						<table bg-color="#ebebeb" class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+							<th class="small-12 large-4 columns first" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 8px; text-align: left; width: 184px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+								<p class="text-left small-text-center adress" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; padding-left: 10px !important; text-align: left;">
+									ООО «Meblis» <br style="box-sizing: border-box;"> г. Дніпро <br style="box-sizing: border-box;"> 49069, вул. Артема 94 <br style="box-sizing: border-box;"> Ціни на сайті <br style="box-sizing: border-box;">
+									<span class="bold" style="box-sizing: border-box; font-weight: 700;">з урахуванням ПДВ.
+									 						</span></p>
+															 <table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+								</th></tr></table></th>
+								<th class="small-12 large-4 columns" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 8px; text-align: left; width: 184px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+									<p class="text-center small-text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+										<img class="inline" src="img/red-phone.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+										<a class="number-link" href="tel:0443907093" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+											<span class="bold" style="box-sizing: border-box; font-weight: 700;"> (044)</span> 390-70-93</a>
+								</p>
+								<p class="text-center small-text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+									<img class="inline" src="img/kyivstar.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link" href="tel:0670074455" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;"><span class="bold" style="box-sizing: border-box; font-weight: 700;"> (067)</span> 007-44-55</a>
+								</p>
+								<p class="text-center small-text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+									<img class="inline" src="img/vodafone.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link" href="tel:0951128288" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<span class="bold" style="box-sizing: border-box; font-weight: 700;"> (095)</span> 112-82-88</a>
+								</p>
+								<p class="text-center small-text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center;">
+									<img class="inline" src="img/life.png" alt="" style="-ms-interpolation-mode: bicubic; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; text-decoration: none; width: auto;">
+									<a class="number-link" href="tel:0632272756" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+										<span class="bold" style="box-sizing: border-box; font-weight: 700;"> (063)</span> 227-27-56</a>
+								</p>
+								<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+							</th></tr></table></th>
+
+							<th class="small-12 large-4 columns last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 8px; padding-right: 16px; text-align: left; width: 184px;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+								<p class="uppercase text-center small-text-center" style="Margin: 0; Margin-bottom: 0; box-sizing: border-box; color: #000; font-family: Arial; font-size: 16px; font-weight: 400; line-height: 22px; margin: 0; margin-bottom: 0; padding: 0; text-align: center; text-transform: uppercase;"> приеднуйтесь <br style="box-sizing: border-box;"> до нас! </p>
+								<table class="spacer" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><td height="5px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 5px; font-weight: 400; hyphens: auto; line-height: 5px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+								<table class="row" style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;">
+									<th class="small-12 large-12 columns first last" style="Margin: 0 auto; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0 auto; padding: 0 !important; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 100%;"><table style="border-collapse: collapse; border-spacing: 0; box-sizing: border-box; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="box-sizing: border-box; padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left;">
+										<a class="small-text-center" href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+											<img class="inline vk small-float-center" src="img/vk.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-left: 30px; text-decoration: none; width: auto;">
+										</a>
+										<a class="small-text-center" href="" style="Margin: 0; box-sizing: border-box; color: #2199e8; font-family: Arial,Helvetica,sans-serif; font-weight: 400; line-height: 15px; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+											<img class="inline fb small-float-center" src="img/fb.png" alt="" style="-ms-interpolation-mode: bicubic; border: none; box-sizing: border-box; clear: both; display: inline-block; max-width: 100%; outline: none; padding-left: 10px; text-decoration: none; width: auto;">
+										</a>
+									</th>
+<th class="expander" style="Margin: 0; box-sizing: border-box; color: #000; font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-weight: 400; line-height: 15px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+								</tr></tbody></table>
+							</th></tr></table></th>
+						</tr></tbody></table>
+					</td></tr></tbody></table>
+
+				</center>
+			</td>
+		</tr>
+	</table>
+	<!--FOOTER-->
+
+
+
+</body>
+
+</html>

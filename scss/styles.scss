@@ -1,0 +1,143 @@
+@import "foundation";
+// style
+// .phone {
+//     display: inline;
+// }
+* {
+    box-sizing: border-box;
+}
+
+th {
+    padding: 0 !important;
+    padding: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.links {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-right: 9px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.kyivstar,
+.life,
+.vodafone {
+    padding-right: 10px;
+}
+
+.first-menu-group {
+    float: left;
+}
+
+.kitchen {
+    margin-right: 5px;
+}
+
+.last-links {
+    padding-right: 0;
+    border-right: 0px;
+}
+
+.red-font {
+    color: #ff0000;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.link-meblis {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.fb {
+    padding-left: 10px;
+}
+
+.vk {
+    padding-left: 30px;
+}
+
+.center-discount {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h1 {
+    color: #000000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.number-link {
+    color: #000000;
+    font-size: 15px;
+}
+
+.list li {
+    list-style: none;
+    float: left;
+}
+
+.list-items {
+    text-align: сenter;
+    margin-bottom: 5px;
+}
+
+.adress {
+    padding-left: 10px !important;
+}
+
+@media(max-width: 600px) {
+    .second-menu-group {
+        margin: 0 auto;
+        float: left;
+    }
+    .kitchen {
+        border-right: none !important;
+    }
+    .list-items {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    img.vk {
+        padding-left: 35% !important;
+    }
+}
+
+@media(max-width: 460px) {
+    th.null {
+        width: 0 !important;
+    }
+}
+
+@media(min-width: 320px) {
+    .kyivstar,
+    .life,
+    .vodafone {
+        padding-right: 10px;
+        font-size: 13px !important;
+    }
+}
